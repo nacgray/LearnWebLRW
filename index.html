@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登录界面</title>
+    <link rel="stylesheet" href="css/reset.css" />
+	<link rel="icon" type="image/x-icon" href="./logo.ico" />
+    <link rel="stylesheet" href="./css/login.css" type="text/css">
+    <script type="text/javascript" src="js/login1.js"></script>
+</head>
+<body>
+    <div class="container right-panel-active">
+        <!-- Sign Up -->
+        <div class="container__form container--signup">
+            <form action="#" class="form" id="form1">
+                <h2 class="form__title">登录</h2>
+                <input type="text" placeholder="用户名" class="input" id="Name" />
+                <input type="email" placeholder="邮箱" class="input" id="Email"/>
+                <input type="password" placeholder="密码" class="input" id="pwd"/>
+                <button class="btn" id="denglu">登录</button>
+            </form>
+        </div>
+        <!-- Sign In -->
+        <div class="container__form container--signin">
+            <form action="#" class="form" id="form2">
+                <h2 class="form__title">注册</h2>
+                <input type="email" placeholder="邮箱" class="input" id="EMAIL"/>
+                <input type="password" placeholder="密码" class="input" id="PWD"/>
+                <a href="#" class="link">忘记密码？</a>
+                <button class="btn" id="zhuce">注册</button>
+            </form>
+        </div>
+        <!-- Overlay -->
+        <div class="container__overlay">
+            <div class="overlay">
+                <div class="overlay__panel overlay--left">
+                    <button class="btn" id="signIn">注册</button>
+                </div>
+                <div class="overlay__panel overlay--right">
+                    <button class="btn" id="signUp">登录</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
